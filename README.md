@@ -89,4 +89,15 @@ Vidyarthi is a full-stack MERN application to manage and track competitive progr
   - `npm run build` — Build the frontend for production
   - `npm start` — Start the production frontend server
 
+## Deployments
+
+- **Frontend**
+    - [Deployed](https://tle-eliminators-intern.vercel.app/)
+
+- **Postman**
+    - [Collection Link](https://cloudy-space-648565.postman.co/workspace/tle-intern-backend~527d8e41-8b01-4441-ab81-072406f66056/collection/39650982-672053f1-fcae-470e-b52a-d773650ea6d5?action=share&creator=39650982)
+
+- **Video**
+    - [Drive](https://drive.google.com/file/d/1twrH_PRqrWyDMQrCVqJ54COCf-WA6F2f/view?usp=sharing)
+
 ---
