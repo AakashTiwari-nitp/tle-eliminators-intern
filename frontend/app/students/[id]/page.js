@@ -208,7 +208,7 @@ export default function StudentProfilePage() {
         )}
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mt-4">
-          {student.current_rating && (
+          {student.current_rating > 0 && (
             <StatCard
               title="Current Rating"
               value={student.current_rating}
@@ -218,7 +218,7 @@ export default function StudentProfilePage() {
             />
           )}
 
-          {student.max_rating && (
+          {student.max_rating > 0 && (
             <StatCard
               title="Max Rating"
               value={student.max_rating}
@@ -228,7 +228,7 @@ export default function StudentProfilePage() {
             />
           )}
 
-          {student.cf_contests && (
+          {student.cf_contests > 0 && (
             <StatCard
               title="Contests"
               value={student.cf_contests}
@@ -237,7 +237,7 @@ export default function StudentProfilePage() {
             />
           )}
 
-          {student.cf_problems_solved && (
+          {student.cf_problems_solved > 0 && (
             <StatCard
               title="Problems Solved"
               value={student.cf_problems_solved}
